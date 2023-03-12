@@ -1,0 +1,123 @@
+/* .App {
+  text-align: center;
+}
+
+.logo {
+  animation: logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.link {
+  color: #b318f0;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+.App {
+  text-align: center;
+}
+
+.bg-accent {
+  background: #fec93d;
+}
+
+.bg-emphasize {
+  background: #f5a07f;
+}
+
+.bg-secondary {
+  background: #0071eb;
+}
+
+.text-primary,
+h2,
+p,
+input,
+label {
+  overflow-wrap: break-word;
+  color: rgb(0, 25, 35);
+  text-align: left;
+  font-size: calc(0.825rem + 1vmin);
+}
+
+h1 {
+  color: rgb(0, 25, 35);
+  font-size: calc(0.95rem + 1vmin);
+  font-weight: bold;
+  text-align: center;
+}
+
+h3, span, input[type="text"] {
+  text-align: left;
+  font-size: calc(0.7rem + 0.75vmin);
+  color: #0071eb;
+}
+
+td {
+  vertical-align: top;
+  text-align: left;
+}
+
+hr {
+  margin-top: calc(7px + 1.5vmin);
+  margin-bottom: calc(7px + 1.5vmin);
+}
+
+input[type="text"] {
+  border: 1px dashed;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+  margin: 5px;
+}
+
+input[type="password"] {
+  border: 1px dashed;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+div {
+  overflow-wrap: break-word;
+}
+
+input[type="button"],
+button {
+  overflow-wrap: break-word;
+  border: 1px solid;
+  border-color: #0071eb;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+textarea {
+  display: inline;
+  border: 1px dashed;
+  border-radius: 5px;
+  margin: 5px 0 5px 0;
+}
